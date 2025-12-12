@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Keane - Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--content here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="py-6 bg-light" style="padding-top: 100px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-5 fw-bold">Jack Keane</h1>
+                    <p class="lead mb-3">BSc (Hons) in Computing with Software Development</p>
+                    <p>
+                        <a href="#projects" class="btn btn-primary btn-lg me-2">View Projects</a>
+                        <a href="" class="btn btn-outline-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</a>
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="images/headshot.jpg" alt="Jack Keane" class="rounded-circle img-fluid" style="width:180px; height:180px; object-fit:cover; display:block; margin:0 auto;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Final Year Computing with Software Development student focused on expanding my skills and knowledge in the field of Software Engineering.</p>
+                    <ul>
+                        <li>Python, C#, SQL, HTML, CSS, JavaScript, Django, Bootstrap</li>
+                        <li>Object Orientated Programming, Agile/Scrum</li>
+                        <li>Version Control: GitHub</li>
+                        <li>Azure Basics, AWS Basics, Docker</li>
+                        <li>Unit Testing, Automated Testing Frameworks</li>
+                        <li>Problem Solving and Critical Thinking</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <p class="mb-1"><strong>Location:</strong> Dublin, Ireland</p>
+                        <p class="mb-1"><strong>Availability:</strong> Open to placements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Education: BSc (Hons) in Computing with Software Development</h2>
+
+            <div class="accordion" id="eduAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year3">3rd Year</button>
+                    </h2>
+                    <div id="year3" class="accordion-collapse collapse" data-bs-parent="#eduAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Module: Cloud Services and Distributed Computing</li>
+                                <li>Module: Data Structures and Algorithms</li>
+                                <li>Module: Server-Side Web Development</li>
+                                <li>Module: Big Data Technologies</li>
+                                <li>Module: Operating Systems</li>
+                                <li>Module: Work Placement</li>
+                                <li>Module: Data Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion" id="eduAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year3">2nd Year</button>
+                    </h2>
+                    <div id="year3" class="accordion-collapse collapse" data-bs-parent="#eduAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Module: Software Development 3</li>
+                                <li>Module: Software Quality Assurance and Testing</li>
+                                <li>Module: Advanced Database Technologies</li>
+                                <li>Module: Network Fundamentals</li>
+                                <li>Module: Client-Side Web Development</li>
+                                <li>Module: Discrete Mathematics 2</li>
+                                <li>Module: Software Development 4</li>
+                                <li>Module: Data Administration and Analysis</li>
+                                <li>Module: Routing & Switching Essentials</li>
+                                <li>Module: Information Security</li>
+                                <li>Module: Management Science</li>
+                                <li>Group Project - AutoParts Online Store</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion" id="eduAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year3">1st Year</button>
+                    </h2>
+                    <div id="year3" class="accordion-collapse collapse" data-bs-parent="#eduAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Module: Software Development 1</li>
+                                <li>Module: Discrete Mathematics 1 </li>
+                                <li>Module: Visual Design and User Experience</li>
+                                <li>Module: Critical Skills Development </li>
+                                <li>Module: Computer Architecture </li>
+                                <li>Module: Business & Information Systems </li>
+                                <li>Module: Software Development 2 </li>
+                                <li>Module: Systems Analysis</li>
+                                <li>Module: Database Fundamentals </li>
+                                <li>Module: Statistics </li>
+                                <li>Module: Operating Systems Fundamentals</li>
+                                <li>Module: Social Media Communications</li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Projects</h2>
+        <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tallaght University Hospital IT Inventory Managment System</h5>
+                <p class="card-text">Web-based application to assist in the management of IT assets within storerooms and around the hospital. Barcode scanner functionality,
+                    low stock alerts, analytics dashboard.
+                </p>
+                <p class="mb-2"><strong>Tech:</strong> Django, Python, HTML, CSS, DataTables</p>
+            </div>
+            </div>
+        </div>
+         <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title"> Online AutoParts Store</h5>
+                <p class="card-text">Online AutoParts store with cart, coupon, checkout, order quantity, email and other neccesary functionality. Stripe API used for payment
+                </p>
+                <p class="mb-2"><strong>Tech:</strong> Django, Python, HTML, CSS, Stripe API</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Work Placement & Experience</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Tallaght University Hospital — Electronic Patient Records Intern</h5>
+                    <p><small>March 2024 – September 2024</small></p>
+                    <ul>
+                        <li>Developed interactive E-training for medical staff</li>
+                        <li>Assisted in teaching classroom based sessions using E-training</li>
+                        <li>Created documentation</li>
+                        <li>Worked on the development of an Inventory Management System for the IT department</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Freelance Photographer</h5>
+                    <p><small>September 2021 – December 2023</small></p>
+                    <ul>
+                        <li>Portrait and Print photography</li>
+                    </ul>
+                </div>
+                
+
+                <div class="col-md-6">
+                    <h5>Beacon Hospital - IT Technician</h5>
+                    <p><small>June 2021 – August 2021</small></p>
+                    <ul>
+                        <li>Worked in a team-based environment, as well as functioning autonomously within the hospital</li>
+                        <li>Helpdesk Support, Hardware Troubleshooting, Finger print clock-in maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Beacon Hospital — IT Technician</h5>
+                    <p><small>May 2020 – August 2020</small></p>
+                    <ul>
+    
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Beacon Hospital — IT Intern</h5>
+                    <p><small>May 2019 – Aug 2019</small></p>
+                    <ul>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Film Magic Pictures — Intern</h5>
+                    <p><small>November 2017 – December 2017</small></p>
+                    <ul>
+                        <li>Worked within various departments during the production of AMC's 'Into the Badlands'</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Our Lady's Hospice and Care Services — Intern</h5>
+                    <p><small>October 2017 – December 2017</small></p>
+                    <ul>
+                        <li>Hospice and Care Services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Skills</h2>
+        <div class="row">
+        <div class="col-md-6">
+            <h6>Technical</h6>
+            <div class="mb-2">Python <div class="progress"><div class="progress-bar" role="progressbar" style="width: 90%;">90%</div></div></div>
+            <div class="mb-2">HTML & CSS <div class="progress"><div class="progress-bar" role="progressbar" style="width: 90%;">90%</div></div></div>
+            <div class="mb-2">Bootstrap <div class="progress"><div class="progress-bar" role="progressbar" style="width: 90%;">90%</div></div></div>
+            <div class="mb-2">GitHub <div class="progress"><div class="progress-bar" role="progressbar" style="width: 90%;">90%</div></div></div>
+            <div class="mb-2">Django <div class="progress"><div class="progress-bar" role="progressbar" style="width: 80%;">80%</div></div></div>
+            <div class="mb-2">SQL <div class="progress"><div class="progress-bar" role="progressbar" style="width: 75%;">75%</div></div></div>
+            <div class="mb-2">JavaScript <div class="progress"><div class="progress-bar" role="progressbar" style="width: 60%;">60%</div></div></div>
+            <div class="mb-2">C# <div class="progress"><div class="progress-bar" role="progressbar" style="width: 60%;">60%</div></div></div>
+            <div class="mb-2">Java <div class="progress"><div class="progress-bar" role="progressbar" style="width: 40%;">40%</div></div></div>
+
+        </div>
+   
+        </div>
+    </div>
+    </section>
+
+
+    <section id="hobbies" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Hobbies & Interests</h2>
+        <p>Photography • Backpacking • Scuba Diving • Instruments • Watchmaking • Gaming • Cooking • Motorcycle Travel</p>
+
+        <div class="row justify-content-center mt-4">
+        <!-- All other images (same size) -->
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/cameronhighlands_malaysia.jpg" alt="Cameron Highlands" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Cameron Highlands Tea Plantation, Malaysia</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/danang_vietnam.jpg" alt="Da Nang" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Da Nang, Vietnam</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/dive.jpg" alt="Ko Tao Dive" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Ko Tao, Thailand</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/ko_tao_thailand.jpg" alt="Ko Tao" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Ko Tao, Thailand</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/dublin.jpg" alt="Dublin" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Dublin</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/laos_loop.jpg" alt="Thakket loop, Laos" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Thakhek Loop, Laos</p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+            <img src="images/yamaha_cambodia.jpg" alt="Yamaha pg1, Cambodia" 
+                class="img-fluid rounded" style="height:500px; object-fit:cover; width:100%;">
+                <p>Bokor Hill Station, Cambodia</p>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+        <div class="col-10 col-md-8 mb-3">
+            <img src="images/mekong_delta_vietnam.jpg" alt="Mekong Delta Vietnam" 
+                class="img-fluid rounded" style="height:600px; object-fit:cover; width:100%;">
+                <p>Mekong River Delta, Vietnam</p>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+        <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Get in Touch</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+            <p><strong>Email:</strong> X00170866@myTUDublin.ie</p>
+            <p><strong>Phone:</strong> +353 87 123 4567</p>
+            <p><strong>Location:</strong> Dublin, Ireland</p>
+            <p><strong>LinkedIn:</strong> 
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/exampleforCA</a>
+            </p>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+        </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!--bootstrap js cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <button id="back-to-top" class="btn btn-primary" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1000;">
+    ↑
+    </button>
+
+</body>
+</html>
